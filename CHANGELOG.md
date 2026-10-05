@@ -6,6 +6,7 @@ All notable changes to `@homebridge/ciao` will be documented in this file. This 
 
 ### Changes
 
+- fix: keep a connected Wi-Fi interface on macOS 15 and later, where `networksetup` reports it as not associated
 - ci: rename the pr-labeler caller job from stale to label
 
 ## v1.3.12 (2026-08-15)
